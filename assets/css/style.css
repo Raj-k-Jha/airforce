@@ -1,0 +1,489 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  width: 81.3%;
+  margin: 0 auto;
+  background: #e7e6fb;
+}
+.icon-bar {
+  position: fixed;
+  top: 40%;
+  right: 0px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transform: translateX(0deg);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.twitter {
+  background: #55acee;
+  color: white;
+}
+
+.instagram {
+  background: #eb3fa0;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+.container1 {
+  background-image: linear-gradient(
+    to right,
+    #f77800,
+    #f77800,
+    #fbfafa,
+    #fbfafa,
+    #038605,
+    #038605
+  );
+  height: 10px;
+}
+.tophead {
+  display: flex;
+  justify-content: flex-end;
+  padding: 4px 0;
+}
+.tophead span a {
+  font-size: 14px;
+  color: #777;
+  text-decoration: none;
+}
+.tophead span a:hover {
+  text-decoration: underline;
+}
+.boxgrade a {
+  background: #fff;
+  color: #666 !important;
+  margin: 0px 5px;
+  padding: 1px;
+  text-decoration: none !important;
+}
+.boxgrade2 a {
+  background: #020202;
+  color: #fff !important;
+  margin: 0px 5px;
+  padding: 1px;
+  text-decoration: none !important;
+}
+.grade {
+  margin: 0px 5px;
+}
+.grade > a {
+  color: #444 !important;
+  font-weight: 500 !important;
+}
+.grade > a:hover {
+  transition: 0.1s all;
+  color: orange !important;
+}
+.text2 {
+  margin: 0px 5px;
+  border-left: 1px solid #ccc;
+  padding-left: 10px;
+}
+.text1 {
+  margin: 0px 5px;
+  padding-right: -5px;
+}
+.dropdownbox {
+  font-size: 14px;
+  padding: 2px 0;
+}
+.dropdownbox select {
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.container2 {
+  background: #0070aa;
+  padding: 15px 5px !important;
+}
+
+.logobar {
+  background: #f1f8fe;
+  padding: 10px;
+}
+.logobar_items {
+  display: flex;
+  justify-content: space-between;
+}
+#searchglass {
+  font-size: 19px;
+  position: relative;
+  top: 1.9px !important;
+  background: #121a6b;
+  color: #fff;
+  padding: 2.9px;
+  margin-left: -5px;
+  cursor: pointer;
+}
+
+.bar2 {
+  width: 49%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav {
+  background: #111a68;
+  padding: 0;
+  font-weight: 300;
+}
+.navbar {
+  display: flex;
+}
+.nav .navbar li {
+  text-transform: uppercase;
+  list-style-type: none;
+  color: #f5f4f8;
+  margin: 0px 0px 0px 15px;
+  font-size: 15px;
+}
+.nav .navbar a {
+  text-decoration: none;
+}
+.nav .navbar li:hover {
+  transition: 0.5s all;
+  background: #4659c7;
+}
+
+.slider1_captions {
+  background: #070918;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px;
+}
+
+.slider1_captions2 a {
+  color: #fff !important;
+  float: right;
+}
+
+.container3 {
+  margin: 20px 0px;
+  width: 100%;
+}
+
+.txt1 {
+  background: #141f61;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 5px;
+}
+.txt2 {
+  padding: 5px;
+  background: #fff;
+  text-transform: uppercase;
+}
+.badge {
+  color: #e78a1f;
+  border-radius: 2px;
+  padding: 2px;
+  margin-left: 10px;
+  animation: badgeani 1s infinite;
+}
+@keyframes badgeani {
+  0% {
+    color: #b63300;
+    background: rgb(216, 216, 64);
+  }
+  90% {
+    color: #ffe96d;
+    background: #b63300;
+  }
+}
+.txt2 a {
+  color: #1e3a52;
+}
+.txt-3 {
+  background: #141f61 !important;
+}
+.txt-3 a {
+  position: relative;
+  top: 6px;
+  color: #fff !important;
+}
+.container4 {
+  width: 100%;
+  background: rgb(255, 255, 255);
+}
+.container5 {
+  width: 100% !important;
+  background: #fff;
+  color: #383c7a;
+}
+.grid_content1 {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 18px;
+}
+.news {
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.press {
+  cursor: pointer;
+  border: 1px solid #777;
+  background: #dbdde7;
+  padding: 10px 0;
+}
+.events {
+  cursor: pointer;
+  border: 1px solid #777;
+  background: #dbdde7;
+  padding: 10px 0;
+}
+
+.strengthbox {
+  background-image: linear-gradient(to bottom, #424f8c, #5f657b);
+  opacity: 0.9;
+}
+.strengthbox .strength,
+.model {
+  color: #fff;
+  font-weight: 500;
+  padding: 20px 20px 0px 20px;
+  font-size: 17px;
+}
+.strengthbox .model {
+  margin-top: 20px;
+}
+.strengthbox hr {
+  color: #eee;
+  width: 90%;
+  margin: 0 auto;
+}
+.strengthbox .desc {
+  color: #fff;
+  padding: 20px 20px 0px 20px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.strengthbox img {
+  width: 100%;
+}
+
+.airstaff {
+  color: #161f5e;
+  padding-top: 15px;
+}
+.imgcas {
+  display: block;
+  margin: 0 auto;
+}
+.img_caption {
+  display: block;
+  margin: 0 auto;
+  width: 76.5% !important;
+  font-size: 13px;
+  background: #000000;
+  opacity: 0.8;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: -57px;
+}
+.aboutcas {
+  text-align: left;
+  font-size: 15px;
+}
+.viewmore {
+  color: #4e4f4f;
+  text-align: right;
+}
+.viewmore a .bx {
+  font-weight: bolder;
+}
+.viewmore a {
+  color: #4e4f4f;
+  text-decoration: none;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: auto;
+}
+.media_content {
+  background: #fff;
+  padding: 20px 0;
+}
+
+.video {
+  color: #fff;
+  font-weight: 500;
+  margin-top: -40px;
+  font-size: 19px;
+  text-transform: uppercase;
+  padding: 0px 5px;
+}
+.video span {
+  font-weight: 300;
+  text-transform: capitalize;
+  font-size: 17px;
+  padding-left: 55px;
+}
+.video span a {
+  text-decoration: none;
+  color: #fff;
+}
+.playcontrol {
+  background: #00000033;
+  color: #eee;
+  font-size: 69px;
+  margin-left: -180px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.playcontrol a i {
+  color: #eee;
+}
+.videogrid {
+  padding-left: 50px;
+}
+.rescuegrid {
+  padding: 0 30px;
+}
+.piccontrol {
+  background: #00000033;
+  color: #eee;
+  font-size: 49px;
+  margin-left: -150px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.piccontrol a i {
+  color: #eee;
+}
+.photo {
+  color: #fff;
+  font-weight: 500;
+  margin-top: -40px;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 0px 10px;
+}
+.photo span {
+  font-weight: 300;
+  text-transform: capitalize;
+  font-size: 15px;
+  padding-left: 45px;
+}
+.photo span a {
+  text-decoration: none;
+  color: #fff;
+}
+.rescuegrid .aidtext {
+  background: #00000066;
+  color: #fff !important;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.iaf_differnet-department {
+  background: #fff;
+  height: 130px;
+}
+.iaf_differnet-department .dept .af {
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.scroller {
+  width: 20px;
+  height: 50px;
+  background: #ccc;
+}
+
+.container_rti {
+  background-image: url("https://indianairforce.nic.in/sites/all/themes/iaf/images/informationLinks-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.links .bx:hover {
+  color: rgb(255, 196, 46) !important;
+}
+
+.links > a {
+  text-decoration: none;
+  padding: 30px 0;
+}
+.links .bx {
+  color: #fff !important;
+  font-size: 39px;
+  margin-left: 63px;
+  padding-top: 10px;
+}
+.link-text {
+  color: #fff;
+  text-align: center !important;
+}
+
+.other_logo {
+  background-color: #fff;
+  height: 88px;
+  padding-top: 10px;
+}
+
+.footer {
+  background: darkblue;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+.footer1 {
+  display: flex !important;
+  text-align: center !important;
+
+  margin-left: 60px;
+}
+.footer1 a {
+  text-decoration: none;
+  text-align: center;
+  padding: 3px;
+}
+
+.footer1 a span {
+  border-right: 1px solid #eee;
+  color: #fff;
+  padding: 0 5px;
+}
+.footer1 a span:hover {
+  text-decoration: underline;
+}
+
+.div2 {
+  text-align: center;
+  margin-top: 15px;
+}
+.div3 {
+  text-align: center;
+  margin: 0;
+}
